@@ -16,14 +16,14 @@
 
     if (!cardListHeader) {
         cardListHeader = document.querySelector('#Set_list');
+    }
 
-        if (!cardListHeader) {
-            cardListHeader = document.querySelector('#Set_lists');
+    if (!cardListHeader) {
+        cardListHeader = document.querySelector('#Set_lists');
+    }
 
-            if (!cardListHeader) {
-                return;
-            }
-        }
+    if (!cardListHeader) {
+        return;
     }
 
     const wrapper = cardListHeader.parentElement;
