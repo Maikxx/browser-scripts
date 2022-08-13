@@ -3,3 +3,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+
+### Project ###
+node_modules/
+dist/
+.parcel-cache/

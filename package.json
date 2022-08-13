@@ -1,0 +1,24 @@
+{
+  "name": "personal-extensions",
+  "version": "1.0.0",
+  "description": "All my personal Tampermonkey extensions",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maikxx/browser-scripts.git"
+  },
+  "author": "Maikel van Veen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maikxx/browser-scripts/issues"
+  },
+  "homepage": "https://github.com/Maikxx/browser-scripts#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
