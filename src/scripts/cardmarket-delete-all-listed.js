@@ -43,7 +43,7 @@
                 })
             }
 
-            triggerButton.innerText = `Toggle auto-delete ${!isToggledState ? 'off' : 'on'}`;
+            triggerButton.innerText = `Toggle auto-delete ${isToggledState ? 'off' : 'on'}`;
         });
 
         document.body.appendChild(triggerButton);
